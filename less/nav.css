@@ -1,0 +1,26 @@
+#nav {
+  background: #fff;
+}
+#nav .container .navbar-header a {
+  height: 80px;
+  line-height: 50px;
+}
+#nav .container .navbar-header a i {
+  font-size: 30px;
+}
+#nav .container .navbar-header a i:first-child {
+  color: #e92322;
+}
+#nav .container .navbar-header a i:first-child + i {
+  color: black;
+}
+#nav .container .collapse .navbar-nav a {
+  height: 80px;
+  line-height: 50px;
+}
+#nav .container .collapse .navbar-nav a:hover {
+  border-bottom: 2px #e92322 solid;
+}
+#nav .container .collapse .navbar-nav a.active {
+  border-bottom: 2px #e92322 solid;
+}

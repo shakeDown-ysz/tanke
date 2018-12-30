@@ -1,0 +1,7 @@
+#booking {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+#booking .text-danger {
+  color: main-color;
+}

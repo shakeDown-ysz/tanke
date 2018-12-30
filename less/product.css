@@ -1,0 +1,11 @@
+#product {
+  background-color: #f5f5f5;
+}
+#product .nav .active a {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid;
+}
+#product .nav a {
+  color: #666;
+  border: 1px solid transparent;
+}

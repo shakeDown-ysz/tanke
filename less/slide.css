@@ -1,0 +1,21 @@
+#slide {
+  margin-top: -20px;
+}
+@media (min-width: 768px) {
+  #slide .item {
+    height: 410px;
+    overflow: hidden;
+  }
+}
+#slide .large-image {
+  position: absolute;
+  max-width: 2000px;
+  width: 2000px;
+  height: 410px;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+#slide .small-image {
+  width: 100%;
+}

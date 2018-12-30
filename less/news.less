@@ -1,0 +1,21 @@
+#news{
+    padding: 40px;
+    .row{
+        h4{
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border-bottom: 1px dashed #ccc;
+            &::after{
+               position: absolute;
+               content: '';
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                bottom: 5px;
+                right: 5px;
+                border:1px solid black;
+            }
+        }
+    }
+}
